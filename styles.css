@@ -1,0 +1,154 @@
+body{
+  height:100%;
+  margin:0px;
+  padding:0px;
+}
+
+
+#leftAlign{
+  display: flex;
+}
+
+img{
+  height:60px;
+  border-color: solid black;
+}
+
+.set1img{
+height: 2rem;
+}
+
+.logoimg{
+  height:5rem ;
+}
+
+.title{
+display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: right;
+  
+}
+.logoTitle{
+  padding-bottom:0px;
+}
+.logo{
+    display:flex;
+  flex-direction: row;
+ align-items: center;
+   color:white;
+  font-size:15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, p, h2, h3{
+  padding-left:10px;
+  text-align:center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+  padding:4px;
+  
+  color:white;
+}
+
+
+.logoTitle{
+  color:#ff5959;
+  font-size:50px; 
+}
+
+h1{
+  color:white;
+  font-size: 35px;
+}
+h1, h2, h3{
+  font-family: 'Archivo Black', sans-serif;
+}
+p{
+  
+  font-family: 'Lato', sans-serif;
+}
+
+section{
+background: #303e47;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.containerOne,.containerTwo, .containerThree, .setThree, .setFour, .setFour, .setSeven,.setEight{
+   
+   margin-Top: 20px;
+   margin-bottom: 20px;
+   font-size: smaller;
+}
+
+.setFour{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 200px;
+  padding:25px;
+}
+
+.setOne, .setTwo, .setThree, .setFive,.setSix, .setSeven, .setEight, .setNine, .setTen{
+  
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  width: 200px;
+  padding:25px;
+
+}
+
+.setOne, .setSix, .setEight{
+  background-color:#ff9e1b;
+}
+
+.setTwo, .setFour, .setSeven, .setNine{
+  background-color:#00b2e2; 
+}
+
+.setThree, .setFive, .setTen{
+  background-color:#ff5959; 
+}
+
+.setFourimg{
+  height: 20px;
+}
+
+@media(min-width:415px){
+  .containerOne,.containerTwo, .containerThree {
+   display: flex;
+   margin-bottom: 25px;
+   margin-Top: 25px;
+   width: 500px;
+   font-size: smaller;
+ }
+
+ h3{
+   font-size: 20px;
+   padding-top: 0px;
+   padding-bottom: 0px; 
+ }
+
+ h1{
+   text-align: center;
+ }
+
+.setThree, .setFour, .setSeven, .setEight{
+  width: 450px;
+}
+
+.setThreeicons, .RiskAlign, .setSeven, .setEight  {
+  display: flex;
+  flex-direction: row;
+}
+
+
+}
